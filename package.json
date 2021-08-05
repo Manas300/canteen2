@@ -1,5 +1,5 @@
 {
-  "name": "CanteenMS",
+  "name": "canteen",
   "version": "1.0.0",
   "main": "server/core/app.js",
   "description": "A simple canteen management system.",
