@@ -34,7 +34,7 @@ require('./events');
 
 routes = routes(app);
 auth = auth();
-const port =  appConfig.app.port;
+const port =  process.env.PORT || 3000;
 
 app.use(cors());
 app.use(boom());
